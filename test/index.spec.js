@@ -57,7 +57,7 @@ describe('function array2', ()=>{
     it('should array not be empty', ()=>{
         expect(array2([5, 70, 45, 1, 6, 85, 2])).not.empty;
     });
-    it('should be array', ()=>{
+    it('should function array be an array', ()=>{
         expect(array2([5, 70, 45, 1, 6, 85, 2])).to.be.an('array');
     });
     it('should initial array is not equal to the actual', ()=>{
