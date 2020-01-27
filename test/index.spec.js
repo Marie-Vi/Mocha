@@ -20,7 +20,7 @@ describe ('function mult', ()=>{
 
     it('should function mult not equals 0', () => {
         expect(mult(2, 4), 0).not.equal(0);
-    })
+    });
 });
 
 describe ('function isAdult', ()=>{
@@ -63,7 +63,7 @@ describe('function array2', ()=>{
     it('should initial array is not equal to the actual', ()=>{
         expect(array2([5, 70, 45, 1, 6, 85, 2])).ordered.members([85, 70, 45, 6, 5, 2, 1]).not.ordered.members([5, 70, 45, 1, 6, 85, 2]);
     });
-})
+});
 
 
 
